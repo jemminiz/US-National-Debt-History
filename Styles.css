@@ -5,8 +5,9 @@ body {
     align-items: center;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
 }
-
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -93,4 +94,11 @@ footer {
     font-style: italic;
     border: 2px solid white;
     border-collapse: collapse;
+}
+
+@media screen and (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
 }
